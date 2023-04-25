@@ -49,6 +49,7 @@ addToDobutton.addEventListener('click' , function() {
 
   let result = Math.round(inputof.value * (input.value / 100)) 
   let paragraph = document.createElement('p');
+  
    paragraph.innerText = result;
    
     toDoContainer.appendChild(paragraph);
@@ -64,7 +65,7 @@ submit.addEventListener('click', ()=>{
 
 console.log(result);
 
-
+result.value = "";
 
 
 
